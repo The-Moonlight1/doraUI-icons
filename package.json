@@ -1,0 +1,21 @@
+{
+  "name": "@dora-ui/icons-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run -C playground dev",
+    "build": "pnpm run -C ./packages/vue build"
+  },
+  "keywords": [],
+  "author": "Yan <2669526712@qq.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@dora-ui/icons-svg": "workspace:^",
+    "@dora-ui/icons-vue": "workspace:^"
+  }
+}
